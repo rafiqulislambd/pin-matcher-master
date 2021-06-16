@@ -33,10 +33,12 @@ function submitPin() {
     if (reasultValue == submitValue) {
         var notify = document.getElementsByClassName('notify');
         notify[1].style.display = "block";
+        notify[0].style.display = "none";
     }
     else {
         var notify = document.getElementsByClassName('notify');
         notify[0].style.display = "block";
+        notify[1].style.display = "none";
     }
 
 
